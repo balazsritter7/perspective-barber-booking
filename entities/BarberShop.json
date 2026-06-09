@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "opening_time": {
+      "type": "string"
+    },
+    "closing_time": {
+      "type": "string"
+    },
+    "working_days": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "slot_duration_minutes": {
+      "type": "number"
+    },
+    "stripe_account_id": {
+      "type": "string"
+    },
+    "deposit_amount": {
+      "type": "number"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  },
+  "required": [],
+  "name": "BarberShop"
+}
