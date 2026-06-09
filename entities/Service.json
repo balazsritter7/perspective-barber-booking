@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "shop_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "duration_minutes": {
+      "type": "number"
+    },
+    "price": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  },
+  "required": [],
+  "name": "Service"
+}
