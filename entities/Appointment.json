@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "properties": {
+    "shop_id": {
+      "type": "string"
+    },
+    "barber_id": {
+      "type": "string"
+    },
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_phone": {
+      "type": "string"
+    },
+    "customer_email": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "string"
+    },
+    "end_time": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "confirmed",
+        "cancelled",
+        "completed",
+        "no_show"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "stripe_payment_intent_id": {
+      "type": "string"
+    },
+    "payment_status": {
+      "type": "string",
+      "enum": [
+        "unpaid",
+        "deposit_paid",
+        "paid",
+        "refunded"
+      ]
+    },
+    "cancellation_reason": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "Appointment"
+}
